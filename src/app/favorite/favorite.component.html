@@ -4,3 +4,9 @@
     [class.bi-star-fill] = "isFavorite"
     (click) = "OnClick()">
 </span>
+
+<!-- Testing Ng-Content-->
+<h1>Najah's Content Test</h1>
+<div *ngIf="isFavorite">
+    <ng-content select = ".contentBody"></ng-content>
+</div>

@@ -9,6 +9,8 @@ import { NajahPipe } from './najah.pipe';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { LikeComponent } from './like/like.component';
 import { EmbeddedviewtestComponent } from './embeddedviewtest/embeddedviewtest.component';
+import { HighlightDirective } from './highlight.directive';
+import { ZippyComponent } from './zippy/zippy.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { EmbeddedviewtestComponent } from './embeddedviewtest/embeddedviewtest.c
     FavoriteComponent,
     LikeComponent,
     EmbeddedviewtestComponent,
-    AlertComponent
+    HighlightDirective,
+    ZippyComponent
   ],
   imports: [
     BrowserModule,

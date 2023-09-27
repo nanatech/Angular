@@ -1,6 +1,6 @@
 import { Component, Input, QueryList, ViewChildren } from '@angular/core';
 
-@Component({
+/*@Component({
   selector: 'alert',
   template: `
     <h1 (click)="alert()">{{type}}</h1>
@@ -28,7 +28,7 @@ export class App {
   ngAfterViewInit() {
     this.alerts.forEach(alertInstance => console.log(alertInstance));
   }
-}
+}*/
 
 @Component({
   selector: 'app-root',
